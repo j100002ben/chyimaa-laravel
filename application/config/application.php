@@ -39,7 +39,7 @@ return array(
 	|
 	*/
 
-	'index' => 'index.php',
+	'index' => '',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -53,7 +53,7 @@ return array(
 	|
 	*/
 
-	'key' => 'YourSecretKeyGoesHere!',
+	'key' => 'X9X3EBe6T7bpzEPdJaoAa7VSaw1k5Ok4',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -135,7 +135,7 @@ return array(
 	|
 	*/
 
-	'timezone' => 'UTC',
+	'timezone' => 'Asia/Taipei',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -194,6 +194,32 @@ return array(
 		'URI'        	=> 'Laravel\\URI',
 		'Validator'  	=> 'Laravel\\Validator',
 		'View'       	=> 'Laravel\\View',
+		
+		'BS_Alert'          => 'Bootstrapper\\Alert',
+		'BS_Badge'          => 'Bootstrapper\\Badge',
+		'BS_Breadcrumb'     => 'Bootstrapper\\Breadcrumb',
+		'BS_Button'         => 'Bootstrapper\\Button',
+		'BS_ButtonGroup'    => 'Bootstrapper\\ButtonGroup',
+		'BS_ButtonToolbar'  => 'Bootstrapper\\ButtonToolbar',
+		'BS_Carousel'       => 'Bootstrapper\\Carousel',
+		'BS_DropdownButton' => 'Bootstrapper\\DropdownButton',
+		'BS_Form'           => 'Bootstrapper\\Form',
+		'BS_Helpers'        => 'Bootstrapper\\Helpers',
+		'BS_Icon'           => 'Bootstrapper\\Icon',
+		'BS_Image'          => 'Bootstrapper\\Image',
+		'BS_Label'          => 'Bootstrapper\\Label',
+		'BS_MediaObject'    => 'Bootstrapper\\MediaObject',
+		'BS_Navbar'         => 'Bootstrapper\\Navbar',
+		'BS_Navigation'     => 'Bootstrapper\\Navigation',
+		'BS_Paginator'      => 'Bootstrapper\\Paginator',
+		'BS_Progress'       => 'Bootstrapper\\Progress',
+		'BS_Tabbable'       => 'Bootstrapper\\Tabbable',
+		'BS_Table'          => 'Bootstrapper\\Table',
+		'BS_Thumbnail'      => 'Bootstrapper\\Thumbnail',
+		'BS_Typeahead'      => 'Bootstrapper\\Typeahead',
+		'BS_Typography'     => 'Bootstrapper\\Typography',
+		
+		'Sentry'            => 'Cartalyst\Sentry\SentryServiceProvider',
 	),
 
 );

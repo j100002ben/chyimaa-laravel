@@ -34,4 +34,7 @@ dwsync.xml
 .CVS
 intermediate
 public
+application/config/local
+application/config/stage
+application/config/production
 .idea
