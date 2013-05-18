@@ -1,4 +1,4 @@
-GLOnly-Laravel
+Chyimaa-Laravel
 =========
 
-Glonly website using php with Laravel.
+Chyimaa website using php with Laravel.
